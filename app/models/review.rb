@@ -1,2 +1,3 @@
 class Review < ApplicationRecord
-end
+    belongs_to :product
+  end
